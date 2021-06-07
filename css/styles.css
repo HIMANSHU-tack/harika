@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.col-left{
+  background-color: #94d0cc;
+}
+.col-right{
+  background-color: #b6c9f0;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.nav-item{
+  padding: 0 16px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 34rem;
+  width: 40rem;
+  text-align: center;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 60%;
+
+  min-width: 100%;
+  height: 32rem;
+}
+
+#myCarousel{
+  background-color: #deedf0;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette-heading {
+
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+    font-size: 50px;
+      margin-top: 7rem;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+.bottom-container{
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.footer-link{
+  color: grey;
+}
+
+.col1{
+  margin-right: 200px;
+  background-color: grey;
+
+}
+.col2{
+  background-color: pink;
+}
+.row1{
+  margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 0px;
+  text-align: center;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.lead{
+  font-family: 'Dancing Script', cursive;
+  font-size: 80;
+}
+
+.mid{
+  background-color: #ff96ad;
+}
